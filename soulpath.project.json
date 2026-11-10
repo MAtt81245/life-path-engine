@@ -1,0 +1,42 @@
+{
+  "name": "SoulPath",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedFirst": {
+      "$path": "sp/ReplicatedFirst",
+      "$ignoreUnknownInstances": true
+    },
+    "ReplicatedStorage": {
+      "$path": "sp/ReplicatedStorage",
+      "$ignoreUnknownInstances": true
+    },
+    "ServerScriptService": {
+      "$path": "sp/ServerScriptService",
+      "$ignoreUnknownInstances": true
+    },
+    "StarterGui": {
+      "$className": "StarterGui",
+      "$ignoreUnknownInstances": true,
+      "LifePathUI": {
+        "$className": "ScreenGui",
+        "$ignoreUnknownInstances": true,
+        "$properties": {
+          "DisplayOrder": 5,
+          "ResetOnSpawn": false,
+          "ZIndexBehavior": "Sibling"
+        },
+        "UIController": {
+          "$path": "sp/StarterGui/LifePathUI/UIController"
+        }
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "$path": "sp/StarterPlayer/StarterPlayerScripts",
+        "$ignoreUnknownInstances": true
+      }
+    }
+  }
+}

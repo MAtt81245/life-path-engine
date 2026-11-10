@@ -1,0 +1,20 @@
+# Sync-tool metadata (machine-specific)
+.rbx-sync/
+
+# Roblox Studio lock/backup files
+*.rbxl.lock
+*.rbxlx.lock
+
+# Unrelated projects in this folder
+entrenadores/
+nuevos/
+criaturas.txt
+ROGUE_TAMER_README.txt
+PROJECT_DESCRIPTION.txt
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.claude/

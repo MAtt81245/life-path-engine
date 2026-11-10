@@ -1,0 +1,42 @@
+{
+  "name": "CursedRelease",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedFirst": {
+      "$path": "cr/ReplicatedFirst",
+      "$ignoreUnknownInstances": true
+    },
+    "ReplicatedStorage": {
+      "$path": "cr/ReplicatedStorage",
+      "$ignoreUnknownInstances": true
+    },
+    "ServerScriptService": {
+      "$path": "cr/ServerScriptService",
+      "$ignoreUnknownInstances": true
+    },
+    "StarterGui": {
+      "$className": "StarterGui",
+      "$ignoreUnknownInstances": true,
+      "LifePathUI": {
+        "$className": "ScreenGui",
+        "$ignoreUnknownInstances": true,
+        "$properties": {
+          "DisplayOrder": 5,
+          "ResetOnSpawn": false,
+          "ZIndexBehavior": "Sibling"
+        },
+        "UIController": {
+          "$path": "cr/StarterGui/LifePathUI/UIController"
+        }
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "$path": "cr/StarterPlayer/StarterPlayerScripts",
+        "$ignoreUnknownInstances": true
+      }
+    }
+  }
+}

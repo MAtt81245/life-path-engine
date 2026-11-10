@@ -1,0 +1,42 @@
+{
+  "name": "MotorMaestro",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedFirst": {
+      "$path": "mm/ReplicatedFirst",
+      "$ignoreUnknownInstances": true
+    },
+    "ReplicatedStorage": {
+      "$path": "mm/ReplicatedStorage",
+      "$ignoreUnknownInstances": true
+    },
+    "ServerScriptService": {
+      "$path": "mm/ServerScriptService",
+      "$ignoreUnknownInstances": true
+    },
+    "StarterGui": {
+      "$className": "StarterGui",
+      "$ignoreUnknownInstances": true,
+      "LifePathUI": {
+        "$className": "ScreenGui",
+        "$ignoreUnknownInstances": true,
+        "$properties": {
+          "DisplayOrder": 5,
+          "ResetOnSpawn": false,
+          "ZIndexBehavior": "Sibling"
+        },
+        "UIController": {
+          "$path": "mm/StarterGui/LifePathUI/UIController"
+        }
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "$path": "mm/StarterPlayer/StarterPlayerScripts",
+        "$ignoreUnknownInstances": true
+      }
+    }
+  }
+}
